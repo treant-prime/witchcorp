@@ -5,6 +5,14 @@
   /* margin: 0 auto; */
   padding: 2rem;
   font-weight: normal;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+  }
 }
 
 a,
@@ -20,15 +28,10 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
-  // body {
-  //   display: flex;
-  //   place-items: center;
-  // }
-
-  // #app {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   padding: 0 2rem;
-  // }
+@media (min-width: 800px) {
+  #app {
+    img {
+      width: 800px;
+    }
+  }
 }
